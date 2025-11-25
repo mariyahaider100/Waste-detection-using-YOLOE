@@ -95,6 +95,25 @@ Below is an example detection summary you can expect after running the notebook 
 
 To save result images, create a `results/` directory and ensure the notebook's save paths point there. Many notebook cells include a `save=True` flag when calling visualization utilities.
 
+## Results (sample outputs)
+
+Below are sample detection outputs produced while developing and testing this project. These are included in the repository so others can quickly see what the detector produces.
+
+- Example 1: `Result 1.png`
+
+![Result 1](./Result%201.png)
+
+- Example 2: `Result 2.png`
+
+![Result 2](./Result%202.png)
+
+
+- Raspberry Pi demo: `Rasberry Pi 5 detection result.jpg`
+
+![Raspberry Pi demo](./Rasberry%20Pi%205%20detection%20result.jpg)
+
+If you prefer images inside a `results/` folder, move these files into `results/` and update the paths above (or I can do that for you).
+
 ## Tips & troubleshooting
 
 - If the model fails to load, check the checkpoint path and PyTorch version compatibility.
@@ -102,20 +121,4 @@ To save result images, create a `results/` directory and ensure the notebook's s
 - If inference is slow, try installing a CUDA-enabled `torch` build and run on GPU.
 - If detections are poor, consider fine-tuning the model with additional annotated waste images or improving pre/post-processing (NMS thresholds, image scaling).
 
-## Extending the project
 
-- Add a `requirements.txt` with the exact package versions you used for reproducibility.
-- Add example images and a `results/` folder with sample outputs (`results/example1.jpg`, etc.).
-- Add a small script `run_inference.py` that wraps the notebook logic for CLI usage and batch processing.
-
-## Credits & License
-
-This project was built as a demonstration of object detection for waste/litter using a YOLOE-style model. If you reuse code or models from other sources, please follow their licenses and give appropriate attribution.
-
-If you want, I can:
-- generate a `requirements.txt` listing the packages used,
-- add a small CLI script (`run_inference.py`) to run on image folders,
-- or prepare a `results/` sample image and include it in the repo.
-
----
-File created: `README.md`
