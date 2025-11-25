@@ -101,16 +101,16 @@ Below are sample detection outputs produced while developing and testing this pr
 
 - Example 1: `Result 1.png`
 
-![Result 1](./Result%201.png)
+<img src="./Result%201.png" alt="Result 1" width="600" />
 
 - Example 2: `Result 2.png`
 
-![Result 2](./Result%202.png)
+<img src="./Result%202.png" alt="Result 2" width="600" />
 
 
 - Raspberry Pi demo: `Rasberry Pi 5 detection result.jpg`
 
-![Raspberry Pi demo](./Rasberry%20Pi%205%20detection%20result.jpg)
+<img src="./Rasberry%20Pi%205%20detection%20result.jpg" alt="Raspberry Pi demo" width="600" />
 
 If you prefer images inside a `results/` folder, move these files into `results/` and update the paths above (or I can do that for you).
 
